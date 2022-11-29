@@ -163,22 +163,3 @@ def main():
     else:
         pass
 main()
-def get_wating():
-    end_job.pop(-1) # Delete End Index
-    arrival_times.pop(0) #
-    for wait_time in range(all_process):
-        # result of { 'End jobs' Mines 'arrival times'}
-        result_mines1 = int(end_job[wait_time]) - int(arrival_times[wait_time])
-        sum_wating_job.append(int(result_mines1))
-    all_jobs = int(len(all_process))
-    final_result = int(sum(sum_wating_job)) / all_jobs
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
